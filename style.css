@@ -1,0 +1,40 @@
+.quadrado {
+    border: 1px solid black; /* Define uma borda de 5 pixels, estilo sólido e cor preta */
+    height: 23,6px; /* Altura do quadrado */
+    width: 103px; /* Largura do quadrado */
+    display: flex; /* Para centralizar o conteúdo */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    border-radius: 10px;
+    transition: background-color 0.8s ease; /* Para suavizar a transição da cor de fundo */
+    position: absolute; /* Permite que o quadrado seja posicionado no topo */
+    top: 20px; /* Distância do topo */
+    left: 286px; /* Centraliza horizontalmente */
+}
+
+.quadrado:hover {
+    background-color: rgb(45, 73, 39); /* Cor de fundo ao passar o mouse */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona sombra para dar profundidade */
+}
+#chaves {
+    color: green; /* A cor do texto deve estar na ID correta */
+    margin: 0; /* Remove a margem padrão do h2 */
+}
+
+.imagens {
+    display: flex; /* Exibe as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    margin-top: 100px; /* Distância do quadrado */
+}
+
+.imagens img {
+    width: 130px; /* Define a largura das imagens */
+    height: 118px; /* Mantém a proporção da imagem */
+    margin:  37px; /* Espaçamento entre as imagens */
+    margin-top: 0cm;
+}
+
+.texto-inferior {
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaçamento acima do texto */
+}
