@@ -74,3 +74,34 @@ body{
     color: green; /* A cor do texto deve estar na ID correta */
     margin: 0; /* Remove a margem padrão do h2 */
 }
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px; /* Distância do título */
+    margin-right: 300px;
+}
+
+.video-container iframe {
+    width: 100px; /* Define a largura do quadrado */
+    height: 100px; /* Define a altura igual à largura para um quadrado */
+    border-radius: 10px; /* Opcional: arredonda as bordas do quadrado */
+    overflow: hidden; /* Oculta as partes fora do quadrado */
+}
+
+.video-texto-container {
+    display: flex;
+    align-items: center; /* Alinha o vídeo e o texto no centro verticalmente */
+    gap: 5; /* Espaço entre o vídeo e o texto */
+}
+
+.video iframe {
+    width: 400px; /* Largura do vídeo em formato quadrado */
+    height: 300px; /* Altura do vídeo em formato quadrado */
+}
+
+#texto-video {
+    max-width: 300px; /* Define a largura máxima do texto */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    color: #333; /* Cor do texto */
+}
